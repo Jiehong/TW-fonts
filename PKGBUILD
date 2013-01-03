@@ -6,7 +6,7 @@ pkgdesc="Set of KAI and SONG font from the Ministry of Education of Taiwan. Thes
 arch=('i686' 'x86_64')
 url="http://www.moe.gov.tw/"
 license=('CC-BY-ND 3.0')
-depends=('fontconfig' 'xorg-font-utils')
+depends=('fontconfig' 'xorg-font-utils' 'git')
 conflicts=()
 install=ttf.install
 
